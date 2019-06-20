@@ -9,7 +9,7 @@ namespace Biblioteka
     static class Program
     {
         /// <summary>
-        /// Główny punkt wejścia dla aplikacji.
+        /// Główny punkt wejścia dla aplikacji. Nowej aplikacji
         /// </summary>
         [STAThread]
         static void Main()
