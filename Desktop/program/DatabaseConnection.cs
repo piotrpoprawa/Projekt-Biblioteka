@@ -25,6 +25,7 @@ namespace Biblioteka
 
         private void Initialize()
         {
+            // parametry połączeniowe do serwera bazy danych MySQL
             server = "127.0.0.1";
             database = "biblioteka_projekt";
             uid = "root";
@@ -36,6 +37,7 @@ namespace Biblioteka
 
         private bool OpenConnection()
         {
+            // Obsługa błędow w połączeniu się z bazą
             try
             {
                 connection.Open();
@@ -50,6 +52,7 @@ namespace Biblioteka
         
         private bool CloseConnection()
         {
+            // Obsługa błędów w zamykaniu połączenia z bazą
             try
             {
                 connection.Close();
