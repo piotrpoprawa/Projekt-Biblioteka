@@ -31,6 +31,7 @@ namespace Biblioteka
 
         private void uzytkownicyButton_Click(object sender, EventArgs e)
         {
+            // Przyciski w menu głównym - użytkownicy
             Uzytkownicy u1 = new Uzytkownicy();
             this.Hide();
             u1.ShowDialog();
@@ -38,6 +39,7 @@ namespace Biblioteka
 
         private void wypozyczeniaButton_Click(object sender, EventArgs e)
         {
+            //  Przyciski w menu głównym - wypożyczenia
             Wypozyczenia w1 = new Wypozyczenia();
             this.Hide();
             w1.ShowDialog();
